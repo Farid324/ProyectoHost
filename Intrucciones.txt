@@ -1,0 +1,21 @@
+Servicio Hosting Web:
+
+Apache + PHP + BIND MySQL o mariadb + PostgreSQL
+
+Desarrollar Aplicación para Administrar Hosting Web (para el Adm)
+
+-Configurar Virtual Host
+-Agregar/Editar/Eliminar un nuevo sitio
+-Crear cuentas FTP para cada cliente
+-Configurar seguridad
+  -El cliente solo tenga acceso a su carpeta.
+  -El cliente solo usa FTP, no tiene acceso shell por SSH u otro medio
+Privacidad
+  -Cliente acceda solo a su BD y no tenga acceso a otras BDs
+  -Acceso restringido a su administrador de BD (ej. Autenticación Básica Apache)
+Otro… ej. firewall (configuración manual)
+
+Nota: Configuraciones manuales que aseguren seguridad del servidor
+
+-Configurar cuentas de Base de Datos
+-Quota de disco (restringir espacio en disco)
