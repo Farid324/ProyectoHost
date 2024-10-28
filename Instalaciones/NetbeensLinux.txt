@@ -1,0 +1,36 @@
+--INSTALACION JDK--
+En el superusuario
+Instalacion
+
+- zypper refresh
+- zypper install java-11-openjdk
+
+Verifica la instalación de Java:
+- java -version
+
+--INSTACION NETBEENS--
+Ingresar a la pagina oficial de Apache Netbeens
+Instalar
+
+ - apache-netbeans-23-0.noarch.rpm
+
+ Acceder desde el superusuario
+Comandos
+
+ - cd ..
+ - cd home/
+ - cd (usuario)/  //Para ver tu usuario copias el comando ls
+ - cd (Descargas/Download)/
+
+ Estando en esa carpeta procesamos con la descarga de netbeans
+
+ - zypper install ./apache-netbeans-23-0.noarch.rpm
+   
+   Aceptaciones aparte
+   - y
+   - i
+ 
+ Para abrir el netbeans copie el comando
+ - netbeans
+
+
